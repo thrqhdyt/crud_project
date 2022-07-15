@@ -32,9 +32,9 @@ $userProfle = mysqli_fetch_array($result);
 <body>
   <nav>
     <div class="brand-name mt-2 text-center">
-      <h4>Admin</h4>
-      <h6><?php echo $userProfle['fullname']; ?></h6>
-      <h6><?php echo $userProfle['email']; ?></h6>
+      <h5>Admin</h5>
+      <h6 style="color: #707070;"><?php echo $userProfle['fullname']; ?></h6>
+      <h6 style="color: #707070;"><?php echo $userProfle['email']; ?></h6>
     </div>
     <div class="menu-items">
       <ul class="nav-links">
